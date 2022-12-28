@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_tsZ0sLIqEeioTaya6vykMQ" id="_tsZNoLIqEeioTaya6vykMQ" label="Alimentation_Table_Base_Donnees" creationDate="2018-09-07T01:15:15.963+0200" modificationDate="2018-12-23T14:39:16.221+0100" version="0.1" statusCode="" item="_tsZ0srIqEeioTaya6vykMQ" displayName="Alimentation_Table_Base_Donnees">
+    <author href="../../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_tsZ0sbIqEeioTaya6vykMQ" path="UTILISATION_BASE_DONNEES"/>
+  <TalendProperties:ProcessItem xmi:id="_tsZ0srIqEeioTaya6vykMQ" property="_tsZ0sLIqEeioTaya6vykMQ" state="_tsZ0sbIqEeioTaya6vykMQ">
+    <process href="Alimentation_Table_Base_Donnees_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

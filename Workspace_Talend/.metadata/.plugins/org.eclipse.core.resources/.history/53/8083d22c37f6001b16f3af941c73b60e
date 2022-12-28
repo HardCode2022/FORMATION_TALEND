@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_B9Ca0KfxEeqXFfQ0tWO-oQ" id="_B8_-kKfxEeqXFfQ0tWO-oQ" label="Fonction_Transformation_Et_Condition" creationDate="2020-06-06T14:27:04.828+0200" modificationDate="2021-08-02T19:42:51.069+0200" version="0.1" statusCode="" item="_B9Ca0qfxEeqXFfQ0tWO-oQ" displayName="Fonction_Transformation_Et_Condition">
+    <author href="../../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_B9Ca0afxEeqXFfQ0tWO-oQ" path="AVANCEE" locked="true" lockDate="2021-08-02T11:51:01.342+0200">
+    <locker href="../../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_B9Ca0qfxEeqXFfQ0tWO-oQ" property="_B9Ca0KfxEeqXFfQ0tWO-oQ" state="_B9Ca0afxEeqXFfQ0tWO-oQ">
+    <process href="Fonction_Transformation_Et_Condition_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

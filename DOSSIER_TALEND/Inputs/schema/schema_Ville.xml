@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema dbmsId="postgres_id">
+    <column comment="" default="" key="false" label="id_ville"
+        length="4" nullable="false" originalDbColumnName="id_ville"
+        pattern="" precision="0" talendType="id_Integer" type="INT4"/>
+    <column comment="" default="" key="false" label="nom_ville"
+        length="255" nullable="true" originalDbColumnName="nom_ville"
+        pattern="" precision="0" talendType="id_String" type="VARCHAR"/>
+</schema>

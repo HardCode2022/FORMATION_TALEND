@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="id_emp" length="2"
+        nullable="true" originalDbColumnName=""
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="Nom" length="9"
+        nullable="true" originalDbColumnName=""
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="Prenom" length="10"
+        nullable="true" originalDbColumnName=""
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="CP" length="11"
+        nullable="true" originalDbColumnName=""
+        pattern="&quot;dd-MM-yyyy&quot;" precision="0" talendType="id_String"/>
+</schema>

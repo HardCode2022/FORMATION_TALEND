@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_qa4v17MKEeiOys5_Q17tRg" id="_qaGFoLMKEeiOys5_Q17tRg" label="Connexion_Postgres" creationDate="2018-09-08T03:58:21.257+0200" modificationDate="2019-03-13T19:00:05.392+0100" version="0.1" statusCode="" item="_qa5W4LMKEeiOys5_Q17tRg" displayName="Connexion_Postgres">
+    <author href="../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_qa4v2LMKEeiOys5_Q17tRg" path="" locked="true" lockDate="2019-03-13T19:02:08.835+0100">
+    <locker href="../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ContextItem xmi:id="_qa5W4LMKEeiOys5_Q17tRg" property="_qa4v17MKEeiOys5_Q17tRg" state="_qa4v2LMKEeiOys5_Q17tRg" defaultContext="Default">
+    <context href="Connexion_Postgres_0.1.item#_qa4v0LMKEeiOys5_Q17tRg"/>
+  </TalendProperties:ContextItem>
+</xmi:XMI>

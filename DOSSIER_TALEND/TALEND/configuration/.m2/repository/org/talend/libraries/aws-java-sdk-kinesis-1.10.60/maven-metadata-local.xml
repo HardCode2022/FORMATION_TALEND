@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.talend.libraries</groupId>
+  <artifactId>aws-java-sdk-kinesis-1.10.60</artifactId>
+  <versioning>
+    <release>6.2.0</release>
+    <versions>
+      <version>6.2.0</version>
+    </versions>
+    <lastUpdated>20170720200149</lastUpdated>
+  </versioning>
+</metadata>

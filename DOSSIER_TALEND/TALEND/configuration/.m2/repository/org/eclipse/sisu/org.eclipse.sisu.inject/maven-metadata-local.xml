@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.eclipse.sisu</groupId>
+  <artifactId>org.eclipse.sisu.inject</artifactId>
+  <versioning>
+    <release>0.0.0.M2a</release>
+    <versions>
+      <version>0.0.0.M2a</version>
+    </versions>
+    <lastUpdated>20170623120258</lastUpdated>
+  </versioning>
+</metadata>

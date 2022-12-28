@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_25BQkKfsEeqXFfQ0tWO-oQ" name="repository.metadataGenericSchema" dataPackage="_25BQkafsEeqXFfQ0tWO-oQ" mappingTypeUsed="true" mappingTypeId="postgres_id"/>
+  <TalendMetadata:GenericPackage xmi:id="_25BQkafsEeqXFfQ0tWO-oQ" name="repository.metadataGenericSchema" dataManager="_25BQkKfsEeqXFfQ0tWO-oQ">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_25BQkqfsEeqXFfQ0tWO-oQ" id="_UC0twKfsEeqXFfQ0tWO-oQ" label="Ville">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_25BQk6fsEeqXFfQ0tWO-oQ" name="id_ville" label="id_Ville" length="4" sourceType="INT4" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_25BQlKfsEeqXFfQ0tWO-oQ" name="nom_ville" label="nom_Ville" length="255" sourceType="VARCHAR" talendType="id_String"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

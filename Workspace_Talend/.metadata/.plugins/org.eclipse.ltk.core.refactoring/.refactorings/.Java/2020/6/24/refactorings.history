@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;cohenrent&apos; in &apos;routines.Traitement_Salaire.traitement_Salaire(...)&apos; to &apos;coherent&apos;&#x0D;&#x0A;- Original project: &apos;.Java&apos;&#x0D;&#x0A;- Original element: &apos;routines.Traitement_Salaire.traitement_Salaire(Integer, String).cohenrent&apos;&#x0D;&#x0A;- Renamed element: &apos;cohenrent&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;cohenrent&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src\/main\/java&lt;routines{Traitement_Salaire.java[Traitement_Salaire~traitement_Salaire~QInteger;~QString;@cohenrent!211!238!218!226!QString;!0!false" name="coherent" references="true" stamp="1591628558114" version="1.0"/>
+</session>

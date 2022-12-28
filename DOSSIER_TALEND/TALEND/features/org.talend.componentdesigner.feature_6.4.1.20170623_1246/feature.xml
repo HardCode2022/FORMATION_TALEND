@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.componentdesigner.feature"
+      label="Componentdesigner_feature Feature"
+      version="6.4.1.20170623_1246"
+      provider-name=".Talend SA.">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.talend.componentdesigner"
+         download-size="204"
+         install-size="360"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.componentdesigner.nl"
+         download-size="33"
+         install-size="125"
+         version="6.4.1.20170623_1246"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ant.core"
+         download-size="104"
+         install-size="184"
+         version="3.3.0.v20140518-0042"
+         unpack="false"/>
+
+</feature>

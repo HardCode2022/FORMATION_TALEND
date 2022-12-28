@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_pGEtULIrEeioTaya6vykMQ" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_pGarkLIrEeioTaya6vykMQ" comment="" name="PostgresHote" prompt="PostgresHote?" promptNeeded="false" type="id_String" value="localhost"/>
+  <contextParameter xmi:id="_pGarkbIrEeioTaya6vykMQ" comment="" name="PostgresUser" prompt="PostgresUser?" promptNeeded="false" type="id_String" value="postgres"/>
+  <contextParameter xmi:id="_pGarkrIrEeioTaya6vykMQ" comment="" name="PostgresPort" prompt="PostgresPort?" promptNeeded="false" type="id_String" value="5432"/>
+  <contextParameter xmi:id="_pGbSoLIrEeioTaya6vykMQ" comment="" name="PostgresPassword" prompt="PostgresPassword?" promptNeeded="false" type="id_Password" value="9bsV1K7whRWu2kQGwbe94w=="/>
+  <contextParameter xmi:id="_pGbSobIrEeioTaya6vykMQ" comment="" name="PostgresSchema" prompt="PostgresSchema?" promptNeeded="false" type="id_String" value="public"/>
+  <contextParameter xmi:id="_pGbSorIrEeioTaya6vykMQ" comment="" name="PostgresDataBase" prompt="PostgresDataBase?" promptNeeded="false" type="id_String" value="postgres"/>
+</talendfile:ContextType>

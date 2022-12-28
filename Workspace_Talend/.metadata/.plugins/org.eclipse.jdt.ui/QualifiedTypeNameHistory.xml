@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="javax.print.attribute.PrintJobAttribute"/>
+<fullyQualifiedTypeName name="javax.print.DocFlavor.STRING"/>
+<fullyQualifiedTypeName name="routines.Caracteristique_Salaire"/>
+<fullyQualifiedTypeName name="routines.Caracteristique_Salaire.Enum_Salaire"/>
+<fullyQualifiedTypeName name="routines.Enum_Salaire"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.bind.v2.runtime.reflect.opt.TransducedAccessor_field_Boolean"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.regexp.internal.recompile"/>
+<fullyQualifiedTypeName name="javax.management.loading.PrivateClassLoader"/>
+<fullyQualifiedTypeName name="routines.Enum_Ville"/>
+<fullyQualifiedTypeName name="routines.Traitement_Salaire"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_CIfqgKPqEeiR2qb4biLUpw" id="_CIV5gKPqEeiR2qb4biLUpw" label="Affiche_bonjour" purpose="Affichage du message bonjour" description="affiche le message bonjour tout le monde" creationDate="2018-08-19T21:56:59.556+0200" modificationDate="2021-04-03T12:51:32.749+0200" version="0.1" statusCode="" item="_CIfqgqPqEeiR2qb4biLUpw" displayName="Affiche_bonjour">
+    <author href="../../talend.project#_eD-TYKPpEeiR2qb4biLUpw"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_CIfqgaPqEeiR2qb4biLUpw" path="Creation_Job"/>
+  <TalendProperties:ProcessItem xmi:id="_CIfqgqPqEeiR2qb4biLUpw" property="_CIfqgKPqEeiR2qb4biLUpw" state="_CIfqgaPqEeiR2qb4biLUpw">
+    <process href="Affiche_bonjour_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>

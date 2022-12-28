@@ -1,0 +1,88 @@
+[INFO] Scanning for projects...
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Build Order:
+[INFO] 
+[INFO] FORMATION_TALEND Codes Master
+[INFO] FORMATION_TALEND Routines
+[INFO] FORMATION_TALEND Fonction_Transformation_Et_Condition (Jobs)
+[INFO] 
+[INFO] Using the builder org.apache.maven.lifecycle.internal.builder.multithreaded.MultiThreadedBuilder with a thread count of 4
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building FORMATION_TALEND Codes Master 6.4.1
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building FORMATION_TALEND Routines 6.4.1
+[INFO] ------------------------------------------------------------------------
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building FORMATION_TALEND Fonction_Transformation_Et_Condition (Jobs) 0.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ routines ---
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ Fonction_Transformation_Et_Condition ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 45 resources
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ Fonction_Transformation_Et_Condition ---
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:compile (default-compile) @ routines ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:copy-resources (copy-running-resources) @ Fonction_Transformation_Et_Condition ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 4 resources
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ Fonction_Transformation_Et_Condition ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ Fonction_Transformation_Et_Condition ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ Fonction_Transformation_Et_Condition ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ routines ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 0 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.5.1:testCompile (default-testCompile) @ routines ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ routines ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ Fonction_Transformation_Et_Condition ---
+[INFO] Tests are skipped.
+[INFO] 
+[INFO] --- maven-jar-plugin:2.6:jar (default-jar) @ routines ---
+[INFO] Building jar: C:\Users\Ordinateur\Desktop\TALEND\Workspace_Talend\.Java\target\fonction_transformation_et_condition_0_1.jar
+[INFO] Building jar: C:\Users\Ordinateur\Desktop\TALEND\Workspace_Talend\.Java\target\routines-6.4.1.jar
+[INFO] 
+[INFO] --- maven-assembly-plugin:2.5.5:single (default) @ Fonction_Transformation_Et_Condition ---
+[INFO] Reading assembly descriptor: C:\Users\Ordinateur\Desktop\TALEND\Workspace_Talend\.Java/src/main/assemblies/assembly_Fonction_Transformation_Et_Condition_0.1.xml
+[WARNING] The following patterns were never triggered in this artifact inclusion filter:
+o  '${pigudfs.binaries.includes.set}'
+
+[WARNING] The following patterns were never triggered in this artifact exclusion filter:
+o  'org.talend.job.formation_talend:*'
+
+[INFO] Building zip: C:\Users\Ordinateur\Desktop\TALEND\Workspace_Talend\.Java\target\fonction_transformation_et_condition_0_1.zip
+[INFO] ------------------------------------------------------------------------
+[INFO] Reactor Summary:
+[INFO] 
+[INFO] FORMATION_TALEND Codes Master ..................... SUCCESS [  0.003 s]
+[INFO] FORMATION_TALEND Routines ......................... SUCCESS [  6.122 s]
+[INFO] FORMATION_TALEND Fonction_Transformation_Et_Condition (Jobs)  SUCCESS [ 10.579 s]
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.817 s (Wall Clock)
+[INFO] Finished at: 2021-08-02T19:44:44+01:00
+[INFO] Final Memory: 11M/226M
+[INFO] ------------------------------------------------------------------------

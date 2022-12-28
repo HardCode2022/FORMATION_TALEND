@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_eKUmoKGyEeiml-Q4IBUDcg" label="Titi" description="" language="java" technicalLabel="TITI" local="true" author="_eKVNsKGyEeiml-Q4IBUDcg" bigData="false"/>
+  <TalendProperties:User xmi:id="_eKVNsKGyEeiml-Q4IBUDcg" login="user@talend.com" password="D41D8CD98F00B204E9800998ECF8427E"/>
+</xmi:XMI>

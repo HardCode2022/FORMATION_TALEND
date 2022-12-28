@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="id_Ing" length="-1"
+        nullable="false" originalDbColumnName="id_Ing" pattern=""
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="nom" length="255"
+        nullable="true" originalDbColumnName="nom" pattern=""
+        precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="prenom"
+        length="255" nullable="true" originalDbColumnName="prenom"
+        pattern="" precision="0" talendType="id_String"/>
+    <column comment="" default="" key="false" label="id_ville"
+        length="4" nullable="false" originalDbColumnName="id_ville"
+        pattern="" precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="date_Embauche"
+        length="15" nullable="true" originalDbColumnName="date_Embauche"
+        pattern="" precision="0" talendType="id_String"/>
+</schema>

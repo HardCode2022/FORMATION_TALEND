@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="id_situation"
+        length="4" nullable="false" originalDbColumnName="id_situation"
+        pattern="" precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="id_Ing" length="4"
+        nullable="false" originalDbColumnName="id_Ing" pattern=""
+        precision="0" talendType="id_Integer"/>
+    <column comment="" default="" key="false" label="salaire"
+        length="10" nullable="true" originalDbColumnName="salaire"
+        pattern="" precision="0" talendType="id_Integer"/>
+</schema>

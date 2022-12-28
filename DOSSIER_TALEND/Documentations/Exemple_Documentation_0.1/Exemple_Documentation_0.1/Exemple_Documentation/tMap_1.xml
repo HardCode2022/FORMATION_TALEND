@@ -1,0 +1,67 @@
+<?xml version="1.1" encoding="UTF-8"?>
+
+<externalNode i18n.job.component.parameters="Description des param&#232;tres" i18n.job.properties="Propri&#233;t&#233;s" i18n.job.values="Valeurs" i18n.mapper.table.for="Mapper table for " i18n.mapper.table.properties="Mapper table Properties" i18n.job.name="Nom" i18n.tmap.matching.mode="Mode de correspondance" i18n.mapper.table.isminimized="isMinimized" i18n.tmap.isreject="isReject" i18n.tmap.isrejectinnnerjoin="isRejectInnerJoin" i18n.tmap.isinnerjoin="isInnerJoin" i18n.tmap.expressionfilter="expressionFilter" i18n.mapper.table.metadata.entries="Entr&#233;es d'une table de m&#233;tadonn&#233;es" i18n.job.type="Type" i18n.mapper.table.expression="Expression" i18n.tmap.isnullable="isNullable" i18n.tmap.constraint.entries="Constraint Table Entries" name="tMap_1" preview="pictures/_ZZ5UwLYPEeiZgLQCYFpNpA-tMap_1-PREVIEW.bmp">
+  <parameters>
+    <column name="Statistiques du tStatCatcher">false</column>
+    <column name="Les liens de mapping s'affichent comme :">AUTO</column>
+    <column name="Chemin d'acc&#232;s au r&#233;pertoire des donn&#233;es temporaires"></column>
+    <column name="Taille maximale de la m&#233;moire (nombre de lignes) :">2000000</column>
+    <column name="Ignore trailing zeros for BigDecimal">false</column>
+    <column name="Afficher les informations">false</column>
+    <column name="Commentaire"><![CDATA[]]></column>
+    <column name="Utiliser une r&#232;gle de validation existante">false</column>
+  </parameters>
+  <mapperTable type="input">
+    <table name="row1" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Id" type="Long" expression="" isNullable="true"/>
+        <entry name="Prenom" type="String" expression="" isNullable="true"/>
+        <entry name="Nom" type="String" expression="" isNullable="true"/>
+        <entry name="Date_Naissance" type="java.util.Date" expression="" isNullable="true"/>
+        <entry name="Code_postal" type="Integer" expression="" isNullable="true"/>
+        <entry name="Sexe" type="String" expression="" isNullable="true"/>
+        <entry name="Marque_Voiture" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="row2" matching-mode="UNIQUE_MATCH" lookup-mode="LOAD_ONCE" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="true" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Id_Sexe" type="String" expression="row1.Sexe " isNullable="true"/>
+        <entry name="Libelle" type="String" expression="" isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="output">
+    <table name="OutputHomme" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="&quot;Homme&quot;.equals(row2.Libelle )" activateExpressionFilter="true" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Id" type="Long" expression="row1.Id " isNullable="true"/>
+        <entry name="Prenom" type="String" expression="row1.Prenom " isNullable="true"/>
+        <entry name="Nom" type="String" expression="row1.Nom " isNullable="true"/>
+        <entry name="Date_Naissance" type="java.util.Date" expression="row1.Date_Naissance " isNullable="true"/>
+        <entry name="Code_postal" type="Integer" expression="row1.Code_postal " isNullable="true"/>
+        <entry name="Sexe" type="String" expression="row2.Libelle " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="OutputFemme" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="&quot;Femme&quot;.equals(row2.Libelle )" activateExpressionFilter="true" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Id" type="Long" expression="row1.Id " isNullable="true"/>
+        <entry name="Prenom" type="String" expression="row1.Prenom " isNullable="true"/>
+        <entry name="Nom" type="String" expression="row1.Nom " isNullable="true"/>
+        <entry name="Date_Naissance" type="java.util.Date" expression="row1.Date_Naissance " isNullable="true"/>
+        <entry name="Code_postal" type="Integer" expression="row1.Code_postal " isNullable="true"/>
+        <entry name="Sexe" type="String" expression="row2.Libelle " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+    <table name="InsertionClients" isMinimized="false" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null">
+      <metadataTableEntries>
+        <entry name="Id" type="Long" expression="row1.Id " isNullable="true"/>
+        <entry name="Prenom" type="String" expression="row1.Prenom " isNullable="true"/>
+        <entry name="Nom" type="String" expression="row1.Nom " isNullable="true"/>
+        <entry name="Date_Naissance" type="java.util.Date" expression="row1.Date_Naissance " isNullable="true"/>
+        <entry name="Code_postal" type="Integer" expression="row1.Code_postal " isNullable="true"/>
+      </metadataTableEntries>
+    </table>
+  </mapperTable>
+  <mapperTable type="var">
+    <table name="Var" isMinimized="true" isReject="false" isRejectInnerJoin="false" isInnerJoin="false" isPersistent="false" expressionFilter="null" activateExpressionFilter="false" activateCondensedTool="false" activateColumnNameFilter="false" columnNameFilter="null"/>
+  </mapperTable>
+</externalNode>

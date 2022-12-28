@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.utils.feature"
+      label="Utils_feature Feature"
+      version="6.4.1.20170623_1246">
+
+   <description url="http://www.example.com/description">
+      This feature contains the Talend utilities plugin and its dependencies.
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <requires>
+      <import plugin="org.apache.log4j" version="1.2.15" match="greaterOrEqual"/>
+   </requires>
+
+   <plugin
+         id="org.talend.libraries.apache"
+         download-size="16357"
+         install-size="18371"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="bcprov"
+         download-size="2659"
+         install-size="5128"
+         version="1.51.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.utils"
+         download-size="288"
+         install-size="420"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.libraries.javacsv"
+         download-size="0"
+         install-size="0"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.talend.libraries.csv"
+         download-size="25"
+         install-size="27"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.junit"
+         download-size="223"
+         install-size="268"
+         version="4.11.0.v201303080030"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="404"
+         install-size="774"
+         version="1.2.15.v201012070815"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-annotations"
+         download-size="38"
+         install-size="55"
+         version="2.5.3"
+         unpack="false"/>
+
+   <plugin
+         id="com.fasterxml.jackson.core.jackson-core"
+         download-size="224"
+         install-size="451"
+         version="2.5.3"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.codec"
+         download-size="277"
+         install-size="540"
+         version="1.10.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="292"
+         install-size="619"
+         version="2.6.0.v201404270220"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.daikon"
+         download-size="246"
+         install-size="481"
+         version="0.17.0"
+         unpack="false"/>
+
+   <plugin
+         id="com.cedarsoftware.json-io"
+         download-size="117"
+         install-size="228"
+         version="4.9.9.SNAPSHOT"
+         unpack="false"/>
+
+   <plugin
+         id="org.slf4j.api"
+         download-size="34"
+         install-size="61"
+         version="1.7.2.v20121108-1250"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-core-asl"
+         download-size="226"
+         install-size="440"
+         version="1.9.13"
+         unpack="false"/>
+
+   <plugin
+         id="jackson-mapper-asl"
+         download-size="762"
+         install-size="1849"
+         version="1.9.13"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.servicemix.bundles.avro"
+         download-size="1319"
+         install-size="2958"
+         version="1.8.0.1"/>
+
+   <plugin
+         id="com.thoughtworks.paranamer"
+         download-size="33"
+         install-size="61"
+         version="2.8.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.compress"
+         download-size="399"
+         install-size="733"
+         version="1.10.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.apache.commons.lang3"
+         download-size="424"
+         install-size="913"
+         version="3.4.0"
+         unpack="false"/>
+
+</feature>

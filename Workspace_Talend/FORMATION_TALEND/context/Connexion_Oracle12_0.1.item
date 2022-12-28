@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_vhRh8LOmEeixYovflKzMEg" confirmationNeeded="false" name="Default">
+  <contextParameter xmi:id="_vhSJALOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Port" prompt="Connexion_Oracle12_Port?" promptNeeded="false" type="id_String" value="1521"/>
+  <contextParameter xmi:id="_vhSJAbOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Sid" prompt="Connexion_Oracle12_Sid?" promptNeeded="false" type="id_String" value="xe"/>
+  <contextParameter xmi:id="_vhSJArOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Login" prompt="Connexion_Oracle12_Login?" promptNeeded="false" type="id_String" value="system"/>
+  <contextParameter xmi:id="_vhSJA7OmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Schema" prompt="Connexion_Oracle12_Schema?" promptNeeded="false" type="id_String" value="SYSTEM"/>
+  <contextParameter xmi:id="_vhSJBLOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_AdditionalParams" prompt="Connexion_Oracle12_AdditionalParams?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_vhSJBbOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Password" prompt="Connexion_Oracle12_Password?" promptNeeded="false" type="id_Password" value="u5qIXcEBwQOzg1z2APPiaQ=="/>
+  <contextParameter xmi:id="_vhSJBrOmEeixYovflKzMEg" comment="" name="Connexion_Oracle12_Server" prompt="Connexion_Oracle12_Server?" promptNeeded="false" type="id_String" value="localhost"/>
+</talendfile:ContextType>

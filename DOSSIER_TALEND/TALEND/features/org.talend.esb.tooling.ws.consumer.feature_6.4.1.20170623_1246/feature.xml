@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.esb.tooling.ws.consumer.feature"
+      label="Talend Designer ESB Tooling web service consumer feature"
+      version="6.4.1.20170623_1246">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="org.talend.designer.esb.routines"
+         download-size="10"
+         install-size="14"
+         version="6.4.1.20170623_1246"
+         unpack="true"/>
+
+   <!-- org.talend.libraries.esb -->
+   <plugin
+         id="javax.wsdl"
+         download-size="164"
+         install-size="319"
+         version="1.6.2.v201012040545"/>
+
+   <plugin
+         id="org.apache.xml.resolver"
+         download-size="100"
+         install-size="211"
+         version="1.2.0.v201005080400"/>
+
+   <plugin
+         id="org.apache.commons.logging"
+         download-size="60"
+         install-size="132"
+         version="1.2.0"/>
+
+   <plugin
+         id="org.apache.log4j"
+         download-size="404"
+         install-size="774"
+         version="1.2.15.v201012070815"/>
+
+   <plugin
+         id="org.apache.commons.lang"
+         download-size="292"
+         install-size="619"
+         version="2.6.0.v201404270220"/>
+
+   <plugin
+         id="org.talend.libraries.esb"
+         download-size="35804"
+         install-size="40660"
+         version="6.4.1.20170623_1246"
+         unpack="true"/>
+
+   <plugin
+         id="org.talend.designer.esb.components.ws.consumer"
+         download-size="101"
+         install-size="245"
+         version="6.4.1.20170623_1246"
+         unpack="true"/>
+
+   <plugin
+         id="org.talend.designer.esb.components.rs.consumer"
+         download-size="26"
+         install-size="60"
+         version="6.4.1.20170623_1246"
+         unpack="true"/>
+
+</feature>
