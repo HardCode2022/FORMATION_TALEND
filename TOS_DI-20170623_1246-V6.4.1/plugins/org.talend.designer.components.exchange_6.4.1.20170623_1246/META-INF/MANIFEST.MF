@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-SymbolicName: org.talend.designer.components.exchange;singleton
+ :=true
+Archiver-Version: Plexus Archiver
+Built-By: 
+Require-Bundle: org.eclipse.core.runtime,org.eclipse.ui,org.apache.log
+ 4j,org.apache.commons.collections,org.apache.commons.logging,org.apac
+ he.commons.beanutils,org.apache.commons.io,org.apache.commons.lang,or
+ g.apache.commons.httpclient,org.talend.commons.ui,org.talend.core,org
+ .talend.core.ui,org.talend.utils,org.talend.librariesmanager,org.tale
+ nd.libraries.mozilla;resolution:=optional,org.talend.libraries.uniser
+ v;resolution:=optional,org.talend.designer.core,org.talend.model,org.
+ talend.repository,org.talend.core.repository,org.talend.updates.runti
+ me,org.apache.axis,org.eclipse.ui.intro,org.eclipse.ui.forms,org.ecli
+ pse.jface.text
+Bundle-ManifestVersion: 2
+Bundle-ActivationPolicy: lazy
+Bundle-Vendor: .Talend SA.
+Import-Package: org.codehaus.jackson,org.codehaus.jackson.map,org.tale
+ nd.registration.wizards.register
+Export-Package: org.talend.designer.components.exchange,org.talend.des
+ igner.components.exchange.i18n,org.talend.designer.components.exchang
+ e.ui,org.talend.designer.components.exchange.ui.views
+Bundle-Name: Exchange Plug-in
+Bundle-Version: 6.4.1.20170623_1246
+Bundle-Activator: org.talend.designer.components.exchange.ExchangePlug
+ in
+Created-By: Apache Maven 3.2.5
+Build-Jdk: 1.8.0_40
+Eclipse-BundleShape: dir
+

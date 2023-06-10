@@ -18,12 +18,13 @@
 		<item value="false" key="JavaJobScriptsExportWizardPage.APPLY_TO_CHILDREN_ID"/>
 		<item value="POJO" key="JavaJobScriptsExportWizardPage.STORE_EXPORTTYPE_ID"/>
 		<list key="JavaJobScriptsExportWizardPage.STORE_DESTINATION_NAMES_ID">
+			<item value="C:\Users\Ordinateur\Downloads\LectureJSON_0.1.zip"/>
 			<item value="C:\Users\Lenovo\Desktop\DOSSIER_TALEND\Scripts\Autres\Alimentation_Table_Base_Donnees_0.1.zip"/>
 			<item value="C:\Users\Lenovo\Desktop\DOSSIER_TALEND\Scripts\Linux\Alimentation_Table_Base_Donnees_0.1.zip"/>
 			<item value="C:\Users\Lenovo\Desktop\DOSSIER_TALEND\Scripts\Windows\Alimentation_Table_Base_Donnees_0.1.zip"/>
 		</list>
 		<section name="destinationFile">
-			<item value="C:\Users\Lenovo\Desktop\DOSSIER_TALEND\Scripts\Autres\Alimentation_Table_Base_Donnees_0.1.zip" key="destinationFile"/>
+			<item value="C:\Users\Ordinateur\Downloads\LectureJSON_0.1.zip" key="destinationFile"/>
 		</section>
 	</section>
 	<section name="ExportItemWizard">

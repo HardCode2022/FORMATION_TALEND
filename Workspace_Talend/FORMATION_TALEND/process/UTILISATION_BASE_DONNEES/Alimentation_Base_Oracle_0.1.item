@@ -65,18 +65,18 @@
     <elementParameter field="CHECK" name="DISABLE_ERROR" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="false" show="false"/>
     <elementParameter field="CHECK" name="DISABLE_INFO" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
-    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false" show="false"/>
-    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="false" show="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" value="&quot;C:/Users/Lenovo/Desktop/Workspace_Talend/.metadata&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;stats_file.txt&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_file.txt&quot;" show="false"/>
-    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;meter_file.txt&quot;" show="false"/>
-    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15" show="false"/>
-    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15" show="false"/>
-    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false" show="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="true"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" value="true"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" value="context.Outputs+&quot;/LOGS&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" value="&quot;log_stats_fichier.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" value="&quot;logs_Catcher_fichier.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" value="&quot;log_meter_fichier.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" value="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_TYPE" value="tJDBCOutput" show="false"/>
     <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_11" show="false"/>
     <elementParameter field="TEXT" name="URL" value="&quot;&quot;" show="false"/>
@@ -95,10 +95,10 @@
     <elementParameter field="DBTABLE" name="TABLE_STATS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_LOGS" value="&quot;&quot;" show="false"/>
     <elementParameter field="DBTABLE" name="TABLE_METER" value="&quot;&quot;" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true" show="false"/>
-    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="false" show="false"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" value="true"/>
     <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" value="" show="false"/>
     <elementParameter field="CHECK" name="HEADER_ENABLED" value="false" show="false"/>
     <elementParameter field="TEXT" name="HEADER_LIBRARY" value="" show="false"/>
@@ -119,7 +119,7 @@
     <routinesParameter id="_iB5hgKPpEeiR2qb4biLUpw" name="TalendStringUtil"/>
     <routinesParameter id="_iBmmkKPpEeiR2qb4biLUpw" name="TalendString"/>
   </parameters>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="768" posY="224">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OAOGALMKEeiOys5_Q17tRg" show="false"/>
@@ -175,7 +175,7 @@
       <column comment="" key="false" length="20" name="Marque_Voiture" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="20" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="224">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_2" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -219,7 +219,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1216" posY="224">
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="256">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleOutput_2" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ohNN8LOlEeixYovflKzMEg" show="false"/>
@@ -322,7 +322,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="928" posY="384">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_3" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OAOGALMKEeiOys5_Q17tRg" show="false"/>
@@ -369,7 +369,7 @@
       <column comment="" key="false" length="5" name="CodePostal" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="5" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1120" posY="384">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="704" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_3" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -404,7 +404,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1408" posY="384">
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="992" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleOutput_3" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ohNN8LOlEeixYovflKzMEg" show="false"/>
@@ -486,7 +486,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="576">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_4" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OAOGALMKEeiOys5_Q17tRg" show="false"/>
@@ -536,7 +536,7 @@
       <column comment="" key="false" length="15" name="Activite" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" originalLength="15" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="1280" posY="576">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_4" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -574,7 +574,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="50" offsetLabelY="0" posX="1504" posY="576">
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="50" offsetLabelY="0" posX="992" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleOutput_4" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ohNN8LOlEeixYovflKzMEg" show="false"/>
@@ -663,7 +663,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="640" posY="64">
+  <node componentName="tPostgresqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="512" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tPostgresqlInput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_OAOGALMKEeiOys5_Q17tRg" show="false"/>
@@ -713,7 +713,7 @@
       <column comment="" key="false" length="5" name="Code_postal" nullable="true" pattern="" precision="0" sourceType="INT4" type="id_Integer" originalLength="5" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="896" posY="64">
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="768" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tMap_1" show="false"/>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
     <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
@@ -751,7 +751,7 @@
       </inputTables>
     </nodeData>
   </node>
-  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="64">
+  <node componentName="tOracleOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="960" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleOutput_1" show="false"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
     <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" value="_ohNN8LOlEeixYovflKzMEg" show="false"/>
@@ -840,7 +840,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="192" posY="96">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_1" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot; Erreur de traitement   &quot;   +  jobName"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -860,7 +860,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_2"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="448">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="416">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_3" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Erreur de traitement&quot;+jobName"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>
@@ -870,7 +870,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tDie_3"/>
   </node>
-  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="608">
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="160" posY="576">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tDie_4" show="false"/>
     <elementParameter field="TEXT" name="MESSAGE" value="&quot;Erreur de traitement&quot;+jobName"/>
     <elementParameter field="TEXT" name="CODE" value="4"/>

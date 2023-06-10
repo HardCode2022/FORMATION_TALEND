@@ -1,0 +1,67 @@
+[ {
+  "baseItem" : {
+    "id" : "_oaAhIO_3Ee2dbYO-Pc1nfQ",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_Cqq2YPO6Ee2LW_uvv7Q6Xg",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_DQFYsACAEe6gUOJtiCBskQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_OmVHsO_3Ee2dbYO-Pc1nfQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_UBZZwACAEe6gUOJtiCBskQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_d3kdIO_3Ee2dbYO-Pc1nfQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_xaGvAO__Ee2dbYO-Pc1nfQ",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
+    "id" : "_kBAR0O_9Ee2dbYO-Pc1nfQ",
+    "version" : "Latest",
+    "type" : "property"
+  }, {
+    "id" : "_Kuar4PAAEe2dbYO-Pc1nfQ - Clients",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_ZY7toPACEe2dbYO-Pc1nfQ - Ventes",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_la1ZQPACEe2dbYO-Pc1nfQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  }, {
+    "id" : "_wucbgPACEe2dbYO-Pc1nfQ - metadata",
+    "version" : "Latest",
+    "type" : "schema"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_wJ_NIAOWEe6-QNQCjp83vg",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "PROJET_TALEND:_oaAhIO_3Ee2dbYO-Pc1nfQ",
+    "version" : "Latest",
+    "type" : "job"
+  }, {
+    "id" : "ActiveMQVersPulsarRoutine",
+    "version" : "Latest",
+    "type" : "routine"
+  } ]
+} ]

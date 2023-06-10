@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.rcp.branding.tos.feature"
+      label="Tos branding feature"
+      version="6.4.1.20170623_1246"
+      provider-name=".Talend SA."
+      plugin="org.talend.rcp.branding.tos">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license>
+      [Enter License Description here.]
+   </license>
+
+   <url>
+      <update label="TOS Talend update site for milestones" url="http://talendforge.org/core/updatesite/testing/"/>
+   </url>
+
+   <includes
+         id="org.talend.tos.feature"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.talend.rcp.branding.tos"
+         download-size="250"
+         install-size="572"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.talend.themes.css.talend"
+         download-size="13"
+         install-size="29"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.presentation.onboarding.resource.tos"
+         download-size="37"
+         install-size="44"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.talend.presentation.onboarding.resource.tos.nl"
+         download-size="2"
+         install-size="5"
+         version="6.4.1.20170623_1246"
+         fragment="true"/>
+
+   <plugin
+         id="org.talend.designer.maven.tos"
+         download-size="41477"
+         install-size="41772"
+         version="6.4.1.20170623_1246"
+         fragment="true"/>
+
+   <plugin
+         id="org.talend.libraries.mdm.webservice.ce"
+         download-size="300"
+         install-size="372"
+         version="6.4.1.20170623_1246"
+         fragment="true"/>
+
+</feature>

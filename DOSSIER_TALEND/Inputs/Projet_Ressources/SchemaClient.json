@@ -1,0 +1,32 @@
+{
+	"Project_Name": "",
+	"IdentifiantClient": "",
+    "Client": {
+	    "Nom_Client":"",
+		"Nom": "",
+		"Prenom": "",
+		"Adresse": "",
+		"Code_Postal": "",
+		"Ville": "",
+		"Telephone": "",
+		"Adresse_Complete": "",
+		"Produit": {
+			"Nom_Produit": "",
+			"Categorie": {
+			   "Nom_Categorie": "",
+			   "Sous_Categorie": {
+				   "Nom_Sous_Categorie_Produit":""
+			    }
+			},
+			"Prix_Unitaire": "",
+			"Cout_Unitaire": ""			
+		},
+		"Ventes": {
+			"Numero_Commande": "",
+			"Date_Commande": "",
+			"Date_Livraison": "",
+			"Canal_Acquisition": "",
+            "Quantité":""			
+		}
+	}
+}

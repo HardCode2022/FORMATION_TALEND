@@ -1,0 +1,7 @@
+2023-02-28 14:39:49;xsUFhP;xsUFhP;xsUFhP;10116;FORMATION_TALEND;Lecture_Fichier_JSON;_LVaDMLIiEe2iObjYAZrWWQ;0.1;Default;tFlowMeter_3;row2;101;;
+2023-02-28 15:00:03;hv2jI2;hv2jI2;hv2jI2;4312;FORMATION_TALEND;Lecture_Fichier_JSON;_LVaDMLIiEe2iObjYAZrWWQ;0.1;Default;tFlowMeter_3;row2;101;;
+2023-03-02 00:48:19;oXuc7x;oXuc7x;oXuc7x;10932;FORMATION_TALEND;Loguer_Projet;_zFO40LhAEe2zWsrgWITfMA;0.1;Default;tFlowMeter_3;row2;101;;
+2023-03-02 00:58:21;haqxdb;haqxdb;haqxdb;19420;FORMATION_TALEND;Loguer_Projet;_zFO40LhAEe2zWsrgWITfMA;0.1;Default;tFlowMeter_3;row2;101;;
+2023-04-02 15:37:57;vc6TrR;vc6TrR;vc6TrR;6188;FORMATION_TALEND;LectureJSON;_T6wUgJLKEe2hipO3WcKoDA;0.1;Default;tFlowMeter_4;row2;101;;
+2023-04-02 17:17:01;qsm1Ub;qsm1Ub;qsm1Ub;13284;FORMATION_TALEND;LectureJSON;_T6wUgJLKEe2hipO3WcKoDA;0.1;Default;tFlowMeter_4;row2;101;;
+2023-04-02 21:16:50;U9d8kM;U9d8kM;U9d8kM;1576;FORMATION_TALEND;LectureJSON;_T6wUgJLKEe2hipO3WcKoDA;0.1;Default;tFlowMeter_4;row2;101;;

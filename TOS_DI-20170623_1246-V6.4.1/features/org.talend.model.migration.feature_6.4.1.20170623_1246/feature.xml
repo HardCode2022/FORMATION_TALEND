@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.talend.model.migration.feature"
+      label="model Migration feature"
+      version="6.4.1.20170623_1246">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <includes
+         id="org.eclipse.m2m.atl"
+         version="3.5.0.v201405260755"/>
+
+   <includes
+         id="org.talend.utils.feature"
+         version="6.4.1.20170623_1246"/>
+
+   <plugin
+         id="org.talend.model.migration"
+         download-size="326"
+         install-size="2570"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.model.migration.nl"
+         download-size="3"
+         install-size="1"
+         version="6.4.1.20170623_1246"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.model"
+         download-size="3590"
+         install-size="8324"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.cwm.mip"
+         download-size="3682"
+         install-size="10516"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.commons.runtime"
+         download-size="537"
+         install-size="861"
+         version="6.4.1.20170623_1246"
+         unpack="false"/>
+
+   <plugin
+         id="bcprov"
+         download-size="2659"
+         install-size="5128"
+         version="1.51.0"
+         unpack="false"/>
+
+   <plugin
+         id="org.talend.commons.runtime.nl"
+         download-size="22"
+         install-size="51"
+         version="6.4.1.20170623_1246"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

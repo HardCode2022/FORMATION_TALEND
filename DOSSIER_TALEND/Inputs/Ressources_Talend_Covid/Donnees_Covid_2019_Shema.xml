@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema>
+    <column comment="" default="" key="false" label="Departements"
+        length="-1" nullable="true" originalDbColumnName="Departements"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="Femmes" length="-1"
+        nullable="true" originalDbColumnName="Femmes"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="Hommes" length="-1"
+        nullable="true" originalDbColumnName="Hommes"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_String" type=""/>
+    <column comment="" default="" key="false" label="age24" length="-1"
+        nullable="true" originalDbColumnName="age24" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="age49" length="-1"
+        nullable="true" originalDbColumnName="age49" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="age64" length="-1"
+        nullable="true" originalDbColumnName="age64" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="age74" length="-1"
+        nullable="true" originalDbColumnName="age74" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="age84" length="-1"
+        nullable="true" originalDbColumnName="age84" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="age85plus"
+        length="-1" nullable="true" originalDbColumnName="age85plus"
+        originalLength="-1" pattern="" precision="-1"
+        talendType="id_Integer" type=""/>
+    <column comment="" default="" key="false" label="Total" length="-1"
+        nullable="true" originalDbColumnName="Total" originalLength="-1"
+        pattern="" precision="-1" talendType="id_Integer" type=""/>
+</schema>

@@ -1,0 +1,84 @@
+package routines;
+
+import javax.jms.Connection;
+import javax.jms.ConnectionFactory;
+import javax.jms.JMSException;
+import javax.jms.MessageConsumer;
+import javax.jms.Session;
+import javax.jms.TextMessage;
+
+import org.apache.activemq.ActiveMQConnectionFactory;
+import org.apache.pulsar.client.api.Producer;
+import org.apache.pulsar.client.api.PulsarClient;
+import org.apache.pulsar.client.api.PulsarClientException;
+import org.apache.pulsar.client.api.Schema;
+import org.apache.pulsar.client.api.TypedMessageBuilder;
+
+public class ActiveMQVersPulsarRoutine {
+
+ 
+    @SuppressWarnings("resource")
+	public  void consommeFromActiveMQToPulsar(String activeMQUrl,String activeMQQueue, String activeMQUser,String activeMQMdp,String pulsarURL,String pulsarTopic) throws JMSException, PulsarClientException {
+       
+    	 //Creation de la connexion factory
+    	 ConnectionFactory connectionFactory = new ActiveMQConnectionFactory(activeMQUser,activeMQMdp,activeMQUrl);
+    	 Connection connection =connectionFactory.createConnection();
+    	 connection.start();
+    	 
+    	 //Creation de la session 
+    	 Session session =connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
+    	 
+    	 //Creation du consumer
+    	 MessageConsumer consumer = session.createConsumer(session.createQueue(activeMQQueue));
+    	 
+    	 //Creation du client pulsar 
+    	 PulsarClient pulsarClient = PulsarClient.builder().serviceUrl(pulsarURL).build();
+    	 
+    	 //Creation du producer avec un Schema String
+    	 Producer<String> pulsarProducer =pulsarClient.newProducer(Schema.STRING).topic(pulsarTopic).create();
+    	 
+    	 //consommer les messages d'activeMQ vers Pulsar 
+    	 boolean continuerAConsommer=true;
+    	 while (continuerAConsommer) {	
+    		 //Reception de message de la Queue
+    		 TextMessage message = (TextMessage) consumer.receive();
+    		 
+    		 try {
+    			 
+    			 if (message!=null) {
+    				   
+    				String messageAEnvoyer = message.getText();
+    				
+    				//Créer le topic dans pulsar si ce n'est pas deja fait
+    				if(!pulsarProducer.getTopic().startsWith(pulsarTopic)) {
+    					
+    					pulsarProducer=pulsarClient.newProducer(Schema.STRING).topic(pulsarTopic).create();
+    					
+    				}else {
+    					//Envoie de message vers pulsar 
+        				TypedMessageBuilder<String> messageBuilder =pulsarProducer.newMessage();
+        				 messageBuilder.value(messageAEnvoyer);
+        				 messageBuilder.send();
+        				 System.out.println("Message consommé et poussé vers pulsar : " +  messageAEnvoyer);
+						
+					}
+    			 
+				 }else {
+					continuerAConsommer=false; // La boucle s'arrete si aucun message n'est reçu
+				}
+				
+			} catch (Exception e) {
+				e.getStackTrace();
+			}
+			
+		}
+    	 
+    	 //Fermer les connexions
+    	 connection.close();
+    	 session.close();
+    	 consumer.close();
+    	 //Fermer les ressources de pulsar
+    	 pulsarClient.close();
+    	 pulsarProducer.close();
+    }
+}

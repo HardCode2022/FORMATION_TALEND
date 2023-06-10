@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.talend.libraries</groupId>
+  <artifactId>org.apache.xml.resolver_1.2.0.v201005080400</artifactId>
+  <versioning>
+    <versions>
+      <version>6.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200609163636</lastUpdated>
+  </versioning>
+</metadata>

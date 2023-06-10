@@ -1,0 +1,80 @@
+Commande git utile : 
+##Initialisation d'un depot 
+ git init
+##Cloner un repository
+ git clone url...
+##Ajout de config concernant votre nom 
+ git config --global user.name "Maurice"
+##Ajout de configurationmail
+  git config --local user.email "maurice.@gmail.com"
+###Ajouter une branche distante:
+  git remote add origin https://.......
+##Associer la branche locale master avec celle distante master
+  git branch --set-upstream-to=origin/master master
+##vérifier que la branche locale est liée à la branche distante
+  git branch -vv
+##Pour pousser les modifications de votre branche locale vers la branche distante
+  git push origin master
+##Cette commande affiche toutes les branches locales et distantes.
+  git branch -a
+#Pour voir les noms et les URL de toutes les branches distantes configurées pour votre dépôt local Git  
+  git remote -v
+##Mise à jour de URL avec celle distante
+  git remote set-url origin https://............
+##Pour synchroniser votre branche locale "master" avec la branche distante "master"
+  git pull origin master
+##Pour pousser votre branche locale "master" vers la branche distante "master"
+  git push origin master
+##Cela téléchargera toutes les modifications de la branche distante "master" sur GitLab vers votre dépôt local Git
+  git fetch origin master
+##Cela fusionnera toutes les modifications de la branche distante "master" sur GitLab avec votre branche locale "master".  
+  git merge origin/master
+##Permet de se mettre en conformité avec une branche avant de faire une MR ou un PR
+  git rebase origin/master  
+##Permet de d'ajouter tous les commits 
+  git add .
+##Permet de continuer la rebase et resoudre 
+git rebase --continue
+##Pour réinitialiser votre branche locale "master" à l'état de la branche distante "master" sur GitLab
+  git reset --hard origin/master
+##Pour avorter la rebase
+  git rebase --abort
+##Pour forcer la prise en compte des changements après la rebase 
+  git push origin HEAD -f
+#####################################################ACTIVE MQ #################################################
+
+  Pour Active MQ apache en local: 
+  ==>Lancer en mode cmd dans le dossier bin la commande :activemq.bat start et se rendre ensuite sous Url http://localhost:8161/admin/
+  Configuration URL tcp: tcp://localhost:61616
+  user : admin
+  mdp:   admin
+  Queue: client
+  
+########################################################PULSAR####################################################################
+
+URL Connexion : pulsar://localhost:6650
+topic : persistent://public/default/mon-topic
+  
+#########################################################LANCER PULSAR AVEC DOCKER ###############################
+
+####Pour creer une image de pulsar sous docker sans montage de volume : 
+    docker run -it -p 6650:6650 -p 8080:8080 apachepulsar/pulsar:2.11.1 bin/pulsar standalone
+	
+###Pour creer une image de pulsar sous docker avec montage de volume :############################################ 
+
+docker run -it -p 6650:6650 -p 8080:8080 --mount source=pulsardata,target="\C:\Users\Ordinateur\Desktop\Brokers_et_exec\Pulsar\data" --mount source=pulsarconf,target="\C:\Users\Ordinateur\Desktop\Brokers_et_exec\Pulsar\conf" apachepulsar/pulsar:2.11.1 bin/pulsar standalone
+    
+###Nom des topics sous ==> pulsar:
+ Topic:persistent://tenant/namespace/topic
+####Pour lister les containers sous docker :
+docker ps
+####Pour lancer pulsar en cmd avec docker:
+ docker exec it pulsar /bin/bash
+#1==>Pour consulter les messages de topic :
+docker exec -it "nom du container docker" bash
+Exemple: docker exec -it "605d781768cd8feae1ecdba25db594b531ec0a5bd10035abe4e8fe9b9042ec69" bash
+Voir la liste des elements(Creation d'un consommateur pulsar) pousser après avoir lancer le point #1 :
+     bin/pulsar-client consume persistent://public/default/mon-topic -s 'my-subscription' -p Earliest -n 0
+#Connaitre la liste de topic:
+      bin/pulsar-admin topics list public/default   
+	  

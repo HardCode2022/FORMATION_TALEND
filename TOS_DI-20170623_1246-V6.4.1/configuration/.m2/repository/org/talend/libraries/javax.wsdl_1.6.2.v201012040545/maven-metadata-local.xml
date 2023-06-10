@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.talend.libraries</groupId>
+  <artifactId>javax.wsdl_1.6.2.v201012040545</artifactId>
+  <versioning>
+    <versions>
+      <version>6.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20200609163636</lastUpdated>
+  </versioning>
+</metadata>

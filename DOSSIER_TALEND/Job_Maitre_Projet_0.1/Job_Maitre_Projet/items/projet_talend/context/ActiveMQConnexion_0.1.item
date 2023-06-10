@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_DRBM0ACAEe6gUOJtiCBskQ" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_DRBM0QCAEe6gUOJtiCBskQ" comment="url de connexion" name="UrlConnexionActiveMQ" prompt="UrlConnexionActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;tcp://localhost:61616&quot;"/>
+    <contextParameter xmi:id="_DRBM0gCAEe6gUOJtiCBskQ" comment="queue de données" name="QueueConnexion" prompt="QueueConnexion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client&quot;"/>
+    <contextParameter xmi:id="_DRBM0wCAEe6gUOJtiCBskQ" comment="user active mq" name="UserActiveMQ" prompt="UserActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+    <contextParameter xmi:id="_DRBM1ACAEe6gUOJtiCBskQ" comment="mdp active mq" name="MdpActiveMQ" prompt="MdpActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DRBM1QCAEe6gUOJtiCBskQ" confirmationNeeded="false" name="DEV">
+    <contextParameter xmi:id="_DRBM1gCAEe6gUOJtiCBskQ" comment="url de connexion" name="UrlConnexionActiveMQ" prompt="UrlConnexionActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;tcp://localhost:61616&quot;"/>
+    <contextParameter xmi:id="_DRBM1wCAEe6gUOJtiCBskQ" comment="queue de données" name="QueueConnexion" prompt="QueueConnexion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client&quot;"/>
+    <contextParameter xmi:id="_DRBM2ACAEe6gUOJtiCBskQ" comment="user active mq" name="UserActiveMQ" prompt="UserActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+    <contextParameter xmi:id="_DRBM2QCAEe6gUOJtiCBskQ" comment="mdp active mq" name="MdpActiveMQ" prompt="MdpActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DRBM2gCAEe6gUOJtiCBskQ" confirmationNeeded="false" name="PROD">
+    <contextParameter xmi:id="_DRBM2wCAEe6gUOJtiCBskQ" comment="url de connexion" name="UrlConnexionActiveMQ" prompt="UrlConnexionActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;tcp://localhost:61616&quot;"/>
+    <contextParameter xmi:id="_DRBM3ACAEe6gUOJtiCBskQ" comment="queue de données" name="QueueConnexion" prompt="QueueConnexion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client&quot;"/>
+    <contextParameter xmi:id="_DRBM3QCAEe6gUOJtiCBskQ" comment="user active mq" name="UserActiveMQ" prompt="UserActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+    <contextParameter xmi:id="_DRBM3gCAEe6gUOJtiCBskQ" comment="mdp active mq" name="MdpActiveMQ" prompt="MdpActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_DRBM3wCAEe6gUOJtiCBskQ" confirmationNeeded="false" name="RECETTE">
+    <contextParameter xmi:id="_DRBM4ACAEe6gUOJtiCBskQ" comment="url de connexion" name="UrlConnexionActiveMQ" prompt="UrlConnexionActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;tcp://localhost:61616&quot;"/>
+    <contextParameter xmi:id="_DRBM4QCAEe6gUOJtiCBskQ" comment="queue de données" name="QueueConnexion" prompt="QueueConnexion?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;client&quot;"/>
+    <contextParameter xmi:id="_DRBM4gCAEe6gUOJtiCBskQ" comment="user active mq" name="UserActiveMQ" prompt="UserActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+    <contextParameter xmi:id="_DRBM4wCAEe6gUOJtiCBskQ" comment="mdp active mq" name="MdpActiveMQ" prompt="MdpActiveMQ?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="&quot;admin&quot;"/>
+  </talendfile:ContextType>
+</xmi:XMI>
