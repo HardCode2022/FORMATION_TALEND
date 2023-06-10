@@ -1,0 +1,34 @@
+<%@ jet 
+imports="
+        org.talend.core.model.process.INode
+        org.talend.core.model.process.ElementParameterParser
+        org.talend.designer.codegen.config.CodeGeneratorArgument
+        java.util.List
+        "
+%>
+<%@ include file="@{org.talend.designer.components.localprovider}/components/templates/Log4j/LogUtil.javajet"%>
+
+<%
+CodeGeneratorArgument codeGenArgument = (CodeGeneratorArgument) argument;
+INode node = (INode)codeGenArgument.getArgument();
+LogUtil logUtil = new LogUtil(node);
+String cid = node.getUniqueName();
+
+boolean isLog4jEnabled = ("true").equals(ElementParameterParser.getValue(node.getProcess(), "__LOG4J_ACTIVATE__"));
+
+String mdmUrl = ElementParameterParser.getValue(node, "__MDMURL__");
+String username = ElementParameterParser.getValue(node, "__USERNAME__");
+String version = ElementParameterParser.getValue(node, "__SERVERVERSION__");
+
+boolean useTransaction = "false".equals(ElementParameterParser.getValue(node, "__AUTO_COMMIT__"));
+boolean useClientTranId = "true".equals(ElementParameterParser.getValue(node, "__GEN_TRANSACTION_ID__"));
+%>
+
+<% String passwordFieldName = "__PASSWORD__"; %>
+<%@ include file="@{org.talend.designer.components.localprovider}/components/templates/password.javajet"%>
+
+globalMap.put("mdmUrl_<%=cid %>", <%=mdmUrl %>);
+globalMap.put("username_<%=cid %>", <%=username %>);
+globalMap.put("password_<%=cid %>", decryptedPassword_<%=cid %>);
+globalMap.put("useTransaction_<%=cid %>", <%=useTransaction %>);
+globalMap.put("useClientTranId_<%=cid %>", <%=useClientTranId %>);
